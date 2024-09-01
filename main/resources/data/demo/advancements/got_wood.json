@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:demo/root",
+  "criteria": {
+    "got_oak_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_log"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "text": "get oak"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:oak_log"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "get an oak log"
+    }
+  },
+  "requirements": [
+    [
+      "got_oak_log"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

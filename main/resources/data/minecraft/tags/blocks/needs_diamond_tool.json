@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "demo:purple_ore",
+    "demo:purple_block",
+    "minecraft:reinforced_deepslate"
+  ]
+}

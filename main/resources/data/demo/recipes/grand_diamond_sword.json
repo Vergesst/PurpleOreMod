@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " WW",
+    "WVW",
+    "KW "
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:diamond"
+    },
+    "V": {
+      "item": "minecraft:diamond_sword"
+    },
+    "K": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "demo:grand_diamond_sword",
+    "count": 1
+  }
+}

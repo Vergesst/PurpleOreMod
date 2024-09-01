@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:adventure/kill_mob_near_sculk_catalyst",
+  "criteria": {
+    "kill_warden": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:warden"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/background/adventure.png",
+    "description": {
+      "text": "Kill a warden in a ancient city"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:reinforced_deepslate"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Defeat Deep Dark"
+    }
+  },
+  "requirements": [
+    [
+      "kill_warden"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

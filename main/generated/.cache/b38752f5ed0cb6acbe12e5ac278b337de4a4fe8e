@@ -1,0 +1,5 @@
+// 1.20.1	2024-07-18T12:06:41.4226436	demo/World Generator
+b07049efd3e7cff56ddcf01d42ebb98ee179c672 data\demo\worldgen\placed_feature\nether_purple_ore.json
+a38da901ec1c33b843503496ed5101a99ef5a2b9 data\demo\worldgen\configured_feature\end_purple_ore.json
+a239fe2f6d3390b245d8e394ec4b31d8beda2be7 data\demo\worldgen\configured_feature\nether_purple_ore.json
+5d30fd5e289dd5b3434b568b512e4769b119d0c1 data\demo\worldgen\placed_feature\end_purple_ore.json

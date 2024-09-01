@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "demo",
+  "version": "${version}",
+  "name": "demo",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Vergisst/demo"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/demo/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "vergesst.demomod.demo.client.DemoClient"
+    ],
+    "main": [
+      "vergesst.demomod.demo.Demo"
+    ]
+  },
+  "entrypoints": {
+    "fabric-datagen": [
+      "vergesst.demomod.demo.Generate.DataGenerate.DemoDataGenerator"
+    ],
+    "main": [
+      "vergesst.demomod.demo.Demo"
+    ],
+    "client": [
+      "vergesst.demomod.demo.client.DemoClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

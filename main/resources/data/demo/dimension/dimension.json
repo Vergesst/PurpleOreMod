@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "minecraft:snowy_plains",
+          "parameters": {
+            "temperature": 2,
+            "humidity": 2,
+            "continentalness": 2,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:stony_peaks",
+          "parameters": {
+            "temperature": -2,
+            "humidity": -2,
+            "continentalness": -2,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

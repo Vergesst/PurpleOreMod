@@ -1,0 +1,14 @@
+{
+  "parent":"minecraft:item/shield",
+  "textures":{
+    "shield":"demo:item/demo_shield"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "demo:item/demo_shield_blocking"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "criteria": {
+    "killed_by_warden": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:warden"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:entity_killed_player"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/background/minecraft.png",
+    "description": {
+      "text": " "
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:oak_log"
+    },
+    "show_toast": false,
+    "title": {
+      "text": " "
+    }
+  },
+  "requirements": [
+    [
+      "killed_by_warden"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

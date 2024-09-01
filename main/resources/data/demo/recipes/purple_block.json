@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "demo:purple_netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "demo:purple_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent":"minecraft:block/shield_blocking",
+  "textures":{
+    "shield":"demo:item/demo_shield"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "Demo": "样例",
+  "block.demo.purple_block": "紫晶方块",
+  "block.demo.infested_pink": "粉色虫蛀方块",
+  "block.demo.purple_ore": "紫晶矿石",
+  "item.demo.purple_netherite_ingot": "紫金锭",
+  "item.demo.purple_ore_dash": "紫晶粉末",
+  "item.demo.purple_netherite_helmet": "紫金头盔",
+  "item.demo.purple_pickaxe": "紫金镐",
+  "item.demo.purple_netherite_chestplate": "紫金胸甲",
+  "enchantment.demo.frost": "霜晶化",
+  "effect.demo.frost": "霜晶化",
+  "item.minecraft.potion.effect.frost": "霜晶化药水",
+  "item.minecraft.splash_potion.effect.frost": "喷溅型霜晶化药水",
+  "item.minecraft.lingering_potion.effect.frost": "滞留型霜晶化药水",
+  "advancement.demo.get_wood": "真正的开始"
+}

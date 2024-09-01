@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W",
+    "R"
+  ],
+  "key": {
+    "W": {
+      "item": "demo:purple_ore_dash"
+    },
+    "R": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "demo:purple_netherite_ingot",
+    "count": 1
+  }
+}
